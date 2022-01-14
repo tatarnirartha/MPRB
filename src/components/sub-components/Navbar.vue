@@ -1,6 +1,6 @@
 <template>
-<div >
-    <nav class="navbar navbar-dark fixed-top m-0 m-lg-2" >
+<div>
+    <nav class="navbar navbar-dark fixed-top m-0 m-lg-2 shadow" >
         <div class="container-fluid col-11 col-lg-11 justify-content-lg-between justify-content-center">
             <div class="">
                 <custom-link linkClass="navbar-brand" linkStyle="font-weight: bold;" label="Monumen Perjuangan Rakyat Bali" />

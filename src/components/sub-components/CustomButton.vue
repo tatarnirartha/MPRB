@@ -27,4 +27,9 @@ export default {
 
 <style scoped>
 
+.btn-round{
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
 </style>
