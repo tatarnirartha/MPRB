@@ -8,26 +8,24 @@
                     <div class="col-12 mt-4">
                         <div class="text-start">
                             <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero eaque eum laudantium fuga. Repudiandae neque, facilis illum tenetur dolore quidem facere enim, quos rem aspernatur eaque fugiat! Numquam, quos unde? Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio provident, mollitia odit accusantium totam nostrum atque reprehenderit ratione vel nihil ducimus, porro deleniti magni soluta autem. Sunt expedita dolores ratione? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non, tempora et! Quaerat quibusdam quasi dolores perspiciatis reprehenderit, necessitatibus nesciunt? Porro impedit dolor pariatur eius ratione laboriosam nesciunt nulla officia sunt.
+                                Monumen Perjuangan Rakyat Bali atau yang lebih dikenal juga dengan Bajra Sandhi merupakan monumen yang menjadi salah satu ikon Kota Denpasar. Monumen ini terletak di kawasan Niti Mandala Renon, Denpasar. Monumen ini dibangun untuk melestarikan dan meningkatkan kesadaran masyarakat terhadap warisan budaya berupa nilai-nilai kepahlawanan, patriotisme, jiwa persatuan dan kesatuan, cinta tanah air, serta cinta perdamaian yang diharapkan untuk dapat diwariskan kepada penerus bangsa. Monumen ini merupakan ide dari Prof. Dr. Ida Bagus Mantra. Sedangkan desain dari monumen ini didesain oleh Ida Bagus Gede Yadnya. Proses pembangunan dimulai pada tahun 1988 dan pada tahun 2003 monumen ini diresmikan oleh Megawati Soekarno Putri.
+
                             </p>
                             <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur eligendi provident ipsa quas, in distinctio fugit delectus sit totam rem alias cupiditate a modi porro. Est facere quasi asperiores magni. Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci commodi quaerat eos vitae assumenda et, voluptatum repellat saepe totam voluptates quas culpa illum dicta hic consequatur quis aperiam soluta incidunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, in tempore. Dolores voluptates veniam quod excepturi vitae amet culpa, commodi expedita a. Qui adipisci iure nesciunt accusamus. Soluta, sapiente vero.
-                            </p>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis magni possimus necessitatibus illo voluptatibus veritatis ab nesciunt, numquam praesentium error vero ea, sed, sunt eos nemo? Deserunt totam reprehenderit omnis? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate, aspernatur corporis, quos excepturi vitae ratione neque, qui natus nobis tempora necessitatibus. Natus voluptate nihil rem dicta illo hic nam corrupti! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet repellat ullam amet libero! Soluta esse repellat tempore ratione. Perspiciatis consectetur sed laudantium itaque facilis officiis in soluta nostrum vitae tenetur.
+                                Monumen ini dikelola oleh UPTD. Monumen Perjuangan Rakyat Bali dibawah Dinas Kebudayaan Provinsi Bali.
                             </p>
                         </div>
                         <div>
-                            <custom-button label="Selengkapnya" class="btn-success m-3 btn-round"/>
+                            <custom-button label="Selengkapnya" class="btn-success m-3 btn-round" @btnClick="cardBtnClick('Info')"/>
                         </div>
                         <hr>
                     </div>
                     
                     <div class="col-12 mt-4">
-                        <custom-card paragraft="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis magni possimus necessitatibus illo voluptatibus veritatis ab nesciunt, numquam praesentium error vero ea, sed, sunt eos nemo? Deserunt totam reprehenderit omnis? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate, aspernatur corporis, quos excepturi vitae ratione neque, qui natus nobis tempora necessitatibus. Natus voluptate nihil rem dicta illo hic nam corrupti! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet repellat ullam amet libero! Soluta esse repellat tempore ratione. Perspiciatis consectetur sed laudantium itaque facilis officiis in soluta nostrum vitae tenetur." title="Peta" imgSrc="main.jpg" @cardBtnClick="cardBtnClick('Peta')"/>
+                        <custom-card paragraft="Pada bagian ini anda dapat melihat peta dari Monumen Perjuangan Rakyat Bali" title="Peta" imgSrc="main.jpg" @cardBtnClick="cardBtnClick('Peta')"/>
                     </div>
                     <div class="col-12 mt-3">
-                        <custom-card paragraft="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis magni possimus necessitatibus illo voluptatibus veritatis ab nesciunt, numquam praesentium error vero ea, sed, sunt eos nemo? Deserunt totam reprehenderit omnis? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate, aspernatur corporis, quos excepturi vitae ratione neque, qui natus nobis tempora necessitatibus. Natus voluptate nihil rem dicta illo hic nam corrupti! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet repellat ullam amet libero! Soluta esse repellat tempore ratione. Perspiciatis consectetur sed laudantium itaque facilis officiis in soluta nostrum vitae tenetur." title="Galeri Foto" imgSrc="main.jpg" @cardBtnClick="cardBtnClick('Galeri')"/>    
+                        <custom-card paragraft="Pada bagian ini anda dapat melihat kolesi foto mengenai Monumen Perjuangan Rakyat Bali" title="Galeri Foto" imgSrc="main.jpg" @cardBtnClick="cardBtnClick('Galeri')"/>    
                     </div>
                 </div>
             </div>

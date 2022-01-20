@@ -6,7 +6,7 @@
             </div>
 
             <div class="col-12 col-lg-6 ms-lg-3 mt-3 mt-lg-0 d-flex align-items-center">
-                <div>
+                <div class="w-100">
                     <h3>{{title}}</h3>
                     <p>{{paragraft}}</p>
                     <custom-button label="Selengkapnya" btnClass="btn-success btn-round" @btnClick="handleClick"/>

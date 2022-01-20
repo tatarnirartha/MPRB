@@ -4,7 +4,7 @@
     </div>
 </template>
 <script>
-import NotFoundComponent from '../components/NotFoundComponent.vue'
+import NotFoundComponent from '@/components/NotFoundComponent.vue'
 
 export default {
     name: "NotFound",
