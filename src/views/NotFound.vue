@@ -1,5 +1,7 @@
 <template>
-    <not-found-component/>
+    <div class="not-found">
+        <not-found-component/>
+    </div>
 </template>
 <script>
 import NotFoundComponent from '../components/NotFoundComponent.vue'

@@ -6,9 +6,9 @@
                 <custom-link linkClass="navbar-brand" linkStyle="font-weight: bold;" label="Monumen Perjuangan Rakyat Bali" link="/"/>
             </div>
             <div align="right" class="row">
-                <custom-link linkClass="navbar-nav col link-light" label="Home" link="/"/>
-                <custom-link linkClass="navbar-nav col link-light" label="Peta" link="/peta"/>
-                <custom-link linkClass="navbar-nav col link-light" label="Galeri" link="/galeri"/>
+                <router-link class="navbar-nav col link-light" :to="{ name: 'Home'}">Home</router-link>
+                <router-link class="navbar-nav col link-light" :to="{ name: 'Peta'}">Peta</router-link>
+                <router-link class="navbar-nav col link-light" :to="{ name: 'Galeri'}">Galeri</router-link>
             </div>
         </div>
     </nav>
@@ -26,16 +26,14 @@ export default {
     name: 'Navbar',
     components: {
         CustomLink
-    }, methods: {
-        navClick(name){
-            this.$emit('navClick', name);
-        }
     }
 }
 </script>
 
 <style scoped>
-
+.navbar-nav{
+    text-decoration: none;
+}
 
 .navbar{
     border-radius: 10px;

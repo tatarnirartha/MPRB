@@ -1,5 +1,5 @@
 <template>
-  <div class="home">
+  <div class="peta">
     <peta-component/>
   </div>
 </template>

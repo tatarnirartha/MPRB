@@ -4,6 +4,7 @@
             <navbar/>    
         </div>
         <div class="col-12 main-card pt-5 pt-lg-0 mb-5">
+            
         </div>
         
     </div>

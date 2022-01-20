@@ -1,7 +1,7 @@
 <template>
     <div class="row justify-content-center">
         <div class="col-12">
-            <navbar @navClick="go(name)"/>    
+            <navbar/>    
         </div>
         <div class="col-12 main-card pt-5 pt-lg-0 mb-5">
             <main-card/>
@@ -19,13 +19,7 @@ export default {
     components: {
         Navbar,
         MainCard
-    },
-    methods: {
-        go(name) {
-            this.$router.push({ name: name})
-        }
-        
-    }
+    }    
 } 
 
 </script>
