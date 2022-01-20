@@ -8,7 +8,7 @@ export default {
     props: {
         link: {
             type: String,
-            default: '#'
+            default: ''
         },
         linkClass: {
             type: String,

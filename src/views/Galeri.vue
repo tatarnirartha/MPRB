@@ -1,9 +1,15 @@
 <template>
-    <div></div>
+    <div>
+        <galeri-component/>
+    </div>
 </template>
 
 <script>
+import GaleriComponent from "../components/GaleriComponent.vue"
 export default {
-    name: "Galeri"
+    name: "Galeri",
+    components: {
+        GaleriComponent
+    }
 }
 </script>

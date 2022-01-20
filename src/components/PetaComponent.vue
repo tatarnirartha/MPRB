@@ -4,7 +4,7 @@
             <navbar/>    
         </div>
         <div class="col-12 main-card pt-5 pt-lg-0 mb-5">
-            
+            <peta-card/>
         </div>
         
     </div>
@@ -12,11 +12,13 @@
 
 <script>
 import Navbar from "./sub-components/Navbar.vue"
+import PetaCard from "./sub-components/PetaCard.vue"
 
 export default {
-    name: "Main",
+    name: "PetaComponent",
     components: {
         Navbar,
+        PetaCard
     }
 } 
 
