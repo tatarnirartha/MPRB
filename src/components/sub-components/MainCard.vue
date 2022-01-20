@@ -24,10 +24,10 @@
                     </div>
                     
                     <div class="col-12 mt-4">
-                        <custom-card paragraft="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis magni possimus necessitatibus illo voluptatibus veritatis ab nesciunt, numquam praesentium error vero ea, sed, sunt eos nemo? Deserunt totam reprehenderit omnis? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate, aspernatur corporis, quos excepturi vitae ratione neque, qui natus nobis tempora necessitatibus. Natus voluptate nihil rem dicta illo hic nam corrupti! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet repellat ullam amet libero! Soluta esse repellat tempore ratione. Perspiciatis consectetur sed laudantium itaque facilis officiis in soluta nostrum vitae tenetur." title="Peta" imgSrc="main.jpg"/>
+                        <custom-card paragraft="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis magni possimus necessitatibus illo voluptatibus veritatis ab nesciunt, numquam praesentium error vero ea, sed, sunt eos nemo? Deserunt totam reprehenderit omnis? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate, aspernatur corporis, quos excepturi vitae ratione neque, qui natus nobis tempora necessitatibus. Natus voluptate nihil rem dicta illo hic nam corrupti! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet repellat ullam amet libero! Soluta esse repellat tempore ratione. Perspiciatis consectetur sed laudantium itaque facilis officiis in soluta nostrum vitae tenetur." title="Peta" imgSrc="main.jpg" @cardBtnClick="cardBtnClick('Peta')"/>
                     </div>
                     <div class="col-12 mt-3">
-                        <custom-card paragraft="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis magni possimus necessitatibus illo voluptatibus veritatis ab nesciunt, numquam praesentium error vero ea, sed, sunt eos nemo? Deserunt totam reprehenderit omnis? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate, aspernatur corporis, quos excepturi vitae ratione neque, qui natus nobis tempora necessitatibus. Natus voluptate nihil rem dicta illo hic nam corrupti! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet repellat ullam amet libero! Soluta esse repellat tempore ratione. Perspiciatis consectetur sed laudantium itaque facilis officiis in soluta nostrum vitae tenetur." title="Galeri Foto" imgSrc="main.jpg"/>    
+                        <custom-card paragraft="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis magni possimus necessitatibus illo voluptatibus veritatis ab nesciunt, numquam praesentium error vero ea, sed, sunt eos nemo? Deserunt totam reprehenderit omnis? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate, aspernatur corporis, quos excepturi vitae ratione neque, qui natus nobis tempora necessitatibus. Natus voluptate nihil rem dicta illo hic nam corrupti! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet repellat ullam amet libero! Soluta esse repellat tempore ratione. Perspiciatis consectetur sed laudantium itaque facilis officiis in soluta nostrum vitae tenetur." title="Galeri Foto" imgSrc="main.jpg" @cardBtnClick="cardBtnClick('Galeri')"/>    
                     </div>
                 </div>
             </div>
@@ -45,6 +45,12 @@ export default {
         CustomButton,
         CustomImage,
         CustomCard
+    },
+    methods: {
+        cardBtnClick(name){
+            this.$router.push({ name: name})
+        }
+        
     }
 }
 </script>

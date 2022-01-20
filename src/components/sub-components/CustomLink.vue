@@ -1,5 +1,5 @@
 <template>
-    <a :href="link" class="link" :class="linkClass" :style="linkStyle">{{label}}</a>
+    <a :href="link" class="link" :class="linkClass" :style="linkStyle" @click="handleClick">{{label}}</a>
 </template>
 
 <script>

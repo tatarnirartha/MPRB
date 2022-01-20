@@ -9,7 +9,7 @@
                 <div>
                     <h3>{{title}}</h3>
                     <p>{{paragraft}}</p>
-                    <custom-button label="Selengkapnya" btnClass="btn-success btn-round"/>
+                    <custom-button label="Selengkapnya" btnClass="btn-success btn-round" @btnClick="handleClick"/>
                 </div>
                 
             </div>
@@ -36,6 +36,11 @@ export default {
         },
         title: {
             type: String
+        }
+    },
+    methods: {
+        handleClick(){
+            this.$emit('cardBtnClick')
         }
     }
 }
