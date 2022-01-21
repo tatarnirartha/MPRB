@@ -35,6 +35,12 @@ const routes = [
     component: () => import('../views/Galeri.vue')
   },
   {
+    path: '/detail/:foto',
+    name: 'Detail',
+    component: () => import('../views/DetailFoto.vue'),
+    props: true
+  },
+  {
     path: '/*',
     name: 'Not Found',
     component: NotFound

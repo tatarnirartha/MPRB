@@ -22,10 +22,10 @@
                     </div>
                     
                     <div class="col-12 mt-4">
-                        <custom-card paragraft="Pada bagian ini anda dapat melihat peta dari Monumen Perjuangan Rakyat Bali" title="Peta" imgSrc="main.jpg" @cardBtnClick="cardBtnClick('Peta')"/>
+                        <custom-card paragraft="Pada bagian ini anda dapat melihat peta dari Monumen Perjuangan Rakyat Bali" title="Peta" imgSrc="peta-icon.jpg" @cardBtnClick="cardBtnClick('Peta')"/>
                     </div>
                     <div class="col-12 mt-3">
-                        <custom-card paragraft="Pada bagian ini anda dapat melihat kolesi foto mengenai Monumen Perjuangan Rakyat Bali" title="Galeri Foto" imgSrc="main.jpg" @cardBtnClick="cardBtnClick('Galeri')"/>    
+                        <custom-card paragraft="Pada bagian ini anda dapat melihat kolesi foto mengenai Monumen Perjuangan Rakyat Bali" title="Galeri Foto" imgSrc="galeri-icon.jpg" @cardBtnClick="cardBtnClick('Galeri')"/>    
                     </div>
                 </div>
             </div>
