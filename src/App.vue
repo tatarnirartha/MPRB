@@ -1,8 +1,19 @@
 <template>
-  <div id="app">
+  <div id="app" :class="theme === 'dark' ? 'dark' : ''">
     <router-view/>
   </div>
 </template>
+<script>
+import {mapGetters} from 'vuex'
+
+export default {
+  computed: {
+    ...mapGetters({
+      theme: "getTheme"
+    })
+  },
+}
+</script>
 
 <style>
 #app {
@@ -28,5 +39,14 @@
 
 .round{
   border-radius: 10px;
+}
+
+.dark {
+  color: white !important;
+  background: #222831 !important;
+}
+
+.dark .border{
+  border: none !important;
 }
 </style>
