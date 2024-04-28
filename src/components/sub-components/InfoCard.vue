@@ -3,7 +3,7 @@
         <div class="col-12 col-lg-9 p-3 shadow round">
                 <div class="row justify-content-center">
                     <div class="col-12">
-                        <custom-image imgName="main.jpg" imgClass="round shadow" />
+                        <custom-image imgName="main-min.jpg" imgClass="round shadow" />
                     </div> 
                     <div class="col-12 mt-4">
                         <div class="text-start">
@@ -22,12 +22,12 @@
                             <ol>
                                 <li>
                                     Nista Mandala (Jaba Sisi), diwujudkan dalam bentuk pelataran luar yang mengelilingi monumen yang dilengkapi dengan jalan setapak, taman, tempat duduk, serta untuk kegiatan olahraga.
-                                    <custom-image imgClass="round shadow" imgName="Luar18.jpg"/>
+                                    <custom-image imgClass="round shadow" imgName="Luar18-min.jpg"/>
                                     <br>
                                     <p>
                                         Pada bagian ini terdapat patung Padarakan Rumeksa Gardapati (Patung yang Menjaga dan Mengawal Sampai Mati). Patung ini merupakan simbol perlawanan masyarakat bali terhadap aksi premanisme yang telah 20 tahun lamanya merajalela di bali serta perlawanan masyarakat bali terhadap peredaran narkoba.
                                     </p>
-                                    <custom-image imgClass="round shadow" imgName="Luar22.jpg"/>
+                                    <custom-image imgClass="round shadow" imgName="Luar22-min.jpg"/>
                                     <br>
                                     <p>
                                         Patung ini merupakan salah satu mahakarya asli masyarakat bali sehingga diharapkan memiliki kekuatan dan semangat perlawanan masyarakat bali tehadap aksi premanisme dan peredaran narkoba, dapat memberikan sinergi di dalam kehidupan baik masa lalu, sekarang dan masa yang akan datang serta keberadaan patung ini tidak hanya sebagai karya seni akan tetapi sebagai warisan dan peninggalan yang akan terus dikenang.
@@ -59,12 +59,12 @@
                                 </li>
                                 <li>
                                     Madya Mandala (Jaba Tengah), yang berada di lapis kedua merupakan sebuah pelataran yang dikelilingi oleh pagra bangunan yang dilengkapi pintu gerbang (Candi Bentar) pada keempat sisi arah mata angin.
-                                    <custom-image imgClass="round shadow" imgName="Dalam28.jpg"/>
+                                    <custom-image imgClass="round shadow" imgName="Dalam28-min.jpg"/>
                                     <br>
                                 </li>
                                 <li>
                                     Utama Mandala (Jeroan), merupakan inti bangunan, terdapat Gedung utama yagng dikelilingi oleh telaga, jalan setapak dan bale bengong yang berada pada setiap sudut.
-                                    <custom-image imgClass="round shadow" imgName="Dalam11.jpg"/>
+                                    <custom-image imgClass="round shadow" imgName="Dalam11-min.jpg"/>
                                     <br>
                                 </li>
                             </ol>
@@ -74,17 +74,17 @@
                             <ol>
                                 <li>
                                     Nistaning Utama Mandala (Nistaning Angga) adalah lantai gedung monumen yang terbawah. Pada bagian ini terdapat ruang informasi, ruang pameran, ruang perpustakaan, ruang rapat, toko cinderamata, dan toilet. Ditengah lantai ini terdapat Telaga Puter Tasik dengan 8 Tiang Agung, dan jalan tangga naik.
-                                    <custom-image imgClass="round shadow" imgName="Dalam34.jpg"/>
+                                    <custom-image imgClass="round shadow" imgName="Dalam34-min.jpg"/>
                                     <br>
                                 </li>
                                 <li>
                                     Madyaning Utama Mandala (Madyaning Angga) adalah lantai tengah atau lantai dua yang digunakan untuk penempatan 33 unit diorama tentang perjuangan rakyat Bali dari masa ke masa.
-                                    <custom-image imgClass="round shadow" imgName="Dalam5.jpg"/>
+                                    <custom-image imgClass="round shadow" imgName="Dalam5-min.jpg"/>
                                     <br>
                                 </li>
                                 <li>
                                     Utamaning Utama Mandala (Utamaning Angga) adalah lantai teratas yang berfungsi sebagai ruang penijauan dan tempat merenung sambal menikmati suasana keindahan di sekeliling monumen.
-                                    <custom-image imgClass="round shadow" imgName="Atas2.jpg"/>
+                                    <custom-image imgClass="round shadow" imgName="Atas2-min.jpg"/>
                                     <br>
                                 </li>
                             </ol>
@@ -106,17 +106,17 @@
                                 </li>
                                 <li>
                                     Bedawang Nala (Akupa) sebagai landasan monumen terletak pada pinggiran telaga dan kepalanya pada Kori Agung
-                                    <custom-image imgClass="round shadow" imgName="Dalam20.jpg"/>
+                                    <custom-image imgClass="round shadow" imgName="Dalam20-min.jpg"/>
                                     <br>
                                 </li>
                                 <li>
                                     Kepala Naga diwujudkan pada Kori Agung
-                                    <custom-image imgClass="round shadow" imgName="Dalam26.jpg"/>
+                                    <custom-image imgClass="round shadow" imgName="Dalam26-min.jpg"/>
                                     <br>
                                 </li>
                                 <li>
                                     Ksirarnawa (lautan susu) sebagai kolam yang mengelilingi monumen.
-                                    <custom-image imgClass="round shadow" imgName="Dalam19.jpg"/>
+                                    <custom-image imgClass="round shadow" imgName="Dalam19-min.jpg"/>
                                     <br>
                                 </li>
                             </ol>
@@ -129,17 +129,17 @@
                             <ul>
                                 <li>
                                     Anak tangga Kori Agung
-                                    <custom-image imgClass="round shadow" imgName="Dalam17.jpg"/>
+                                    <custom-image imgClass="round shadow" imgName="Dalam17-min.jpg"/>
                                     <br>
                                 </li>
                                 <li>
                                     Tiang Agung
-                                    <custom-image imgClass="round shadow" imgName="Dalam10.jpg"/>
+                                    <custom-image imgClass="round shadow" imgName="Dalam10-min.jpg"/>
                                     <br>
                                 </li>
                                 <li>
                                     Tinggi monumen 45 meter
-                                    <custom-image imgClass="round shadow" imgName="tinggi.jpg"/>
+                                    <custom-image imgClass="round shadow" imgName="tinggi-min.jpg"/>
                                     <br>
                                 </li>
                                 

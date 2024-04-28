@@ -3,7 +3,7 @@
         <div class="col-12 col-lg-9 p-3 shadow round">
                 <div class="row justify-content-center">
                     <div class="col-12">
-                        <custom-image imgName="main.jpg" imgClass="round shadow" />
+                        <custom-image imgName="main-min.jpg" imgClass="round shadow" />
                     </div> 
                     <div class="col-12 mt-4">
                         <div class="text-start">
@@ -22,10 +22,10 @@
                     </div>
                     
                     <div class="col-12 mt-4">
-                        <custom-card paragraft="Pada bagian ini anda dapat melihat peta dari Monumen Perjuangan Rakyat Bali" title="Peta" imgSrc="peta-icon.jpg" @cardBtnClick="cardBtnClick('Peta')"/>
+                        <custom-card paragraft="Pada bagian ini anda dapat melihat peta dari Monumen Perjuangan Rakyat Bali" title="Peta" imgSrc="peta-icon-min.jpg" @cardBtnClick="cardBtnClick('Peta')"/>
                     </div>
                     <div class="col-12 mt-3">
-                        <custom-card paragraft="Pada bagian ini anda dapat melihat kolesi foto mengenai Monumen Perjuangan Rakyat Bali" title="Galeri Foto" imgSrc="galeri-icon.jpg" @cardBtnClick="cardBtnClick('Galeri')"/>    
+                        <custom-card paragraft="Pada bagian ini anda dapat melihat kolesi foto mengenai Monumen Perjuangan Rakyat Bali" title="Galeri Foto" imgSrc="galeri-icon-min.jpg" @cardBtnClick="cardBtnClick('Galeri')"/>    
                     </div>
                 </div>
             </div>
