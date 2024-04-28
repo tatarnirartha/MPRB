@@ -9,6 +9,8 @@
                 <router-link class="navbar-nav col link-light" :to="{ name: 'Home'}">Home</router-link>
                 <router-link class="navbar-nav col link-light" :to="{ name: 'Peta'}">Peta</router-link>
                 <router-link class="navbar-nav col link-light" :to="{ name: 'Galeri'}">Galeri</router-link>
+                <span v-if="theme === 'light'" @click="changeTheme('dark')" class="navbar-nav clickable col link-light">🌘</span>
+                <span v-else @click="changeTheme('light')" class="navbar-nav clickable col link-light">☀️</span>
             </div>
         </div>
     </nav>
@@ -20,11 +22,23 @@
 
 <script>
 import CustomLink from "./CustomLink.vue"
+import {mapGetters} from 'vuex'
 
 export default {
     name: 'Navbar',
     components: {
         CustomLink
+    },
+    computed: {
+        ...mapGetters({
+            theme: "getTheme"
+        })
+    },
+    methods: {
+        changeTheme(data){
+            console.log(this.$store)
+            this.$store.dispatch('setTheme', data)
+        }
     }
 }
 </script>
@@ -37,5 +51,9 @@ export default {
 .navbar{
     border-radius: 10px;
     background: olive;
+}
+
+.clickable{
+    cursor: pointer;
 }
 </style>
