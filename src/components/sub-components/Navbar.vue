@@ -5,12 +5,14 @@
             <div class="">
                 <custom-link linkClass="navbar-brand" linkStyle="font-weight: bold;" label="Monumen Perjuangan Rakyat Bali"/>
             </div>
-            <div align="right" class="row">
-                <router-link class="navbar-nav col link-light" :to="{ name: 'Home'}">Home</router-link>
-                <router-link class="navbar-nav col link-light" :to="{ name: 'Peta'}">Peta</router-link>
-                <router-link class="navbar-nav col link-light" :to="{ name: 'Galeri'}">Galeri</router-link>
-                <span v-if="theme === 'light'" @click="changeTheme('dark')" class="navbar-nav clickable col link-light">🌘</span>
-                <span v-else @click="changeTheme('light')" class="navbar-nav clickable col link-light">☀️</span>
+            <div>
+                <div align="right" class="d-flex">
+                    <router-link class="navbar-nav ms-3 link-light" :to="{ name: 'Home'}">Home</router-link>
+                    <router-link class="navbar-nav ms-3 link-light" :to="{ name: 'Peta'}">Peta</router-link>
+                    <router-link class="navbar-nav ms-3 link-light" :to="{ name: 'Galeri'}">Galeri</router-link>
+                    <div v-if="theme === 'light'" @click="changeTheme('dark')" class="navbar-nav ms-3 clickable button-theme link-light">☾ Dark Mode</div>
+                    <div v-else @click="changeTheme('light')" class="navbar-nav ms-3 clickable button-theme link-light">🌣 Light Mode</div>
+                </div>
             </div>
         </div>
     </nav>
@@ -56,5 +58,9 @@ export default {
 
 .clickable{
     cursor: pointer;
+}
+
+.button-theme {
+    font-size: 1rem;
 }
 </style>
