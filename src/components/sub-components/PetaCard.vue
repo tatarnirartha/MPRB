@@ -7,7 +7,7 @@
                         <hr>
                     </div>
                     <div class="col-12">
-                        <custom-image imgName="peta-luar.jpg" imgClass="round shadow" />
+                        <custom-image imgName="peta-luar-min.jpg" imgClass="round shadow" />
                         <h4 class="text-start mt-4">Keterangan:</h4>
                         <ul class="text-start">
                             <li>1: Parkir Barat</li>
