@@ -16,7 +16,6 @@
             </div>
         </div>
     </nav>
-
 </div>
     
     
@@ -58,9 +57,5 @@ export default {
 
 .clickable{
     cursor: pointer;
-}
-
-.button-theme {
-    font-size: 1rem;
 }
 </style>
